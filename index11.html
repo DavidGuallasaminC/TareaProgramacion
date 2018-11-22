@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BOTONES</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    var contador1 =0;
+    var contador2 =0;
+    var contador3 =0;
+    function incrementar(){
+      contador1++;
+      alert('El boton 1 se incremento: '+contador1);
+    }
+    function incrementarCont2(){
+      contador2=contador2+2;
+      alert('El boton 2 se incremento: '+contador2);
+    }
+    function incrementarCont3(){
+      contador3=contador3+3;
+      alert('El boton 3 se incremento: '+contador3);
+    }
+  </script>
+    <form>
+      <input type="button" onclick="incrementar()" value="Boton 1">
+      <input type="button" onclick="incrementarCont2()" value="Boton 2">
+      <input type="button" onclick="incrementarCont3()" value="Boton 3">
+  </form>
+  </body>
+</html>

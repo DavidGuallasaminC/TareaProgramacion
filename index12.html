@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CUATRIMESTRE EJERCICIO</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+    var fecha
+  fecha=new Date();
+  var mes=fecha.getMonth();
+  if (mes<4)
+  {
+    document.write('Nos encontramos en el primer cuatrimestre del año');
+  }
+  else
+  {
+    if (mes<8)
+    {
+      document.write('Nos encontramos en el segundo cuatrimestre del año');
+    }
+    else
+    {
+       document.write('Nos encontramos en el tercer cuatrimestre del año');
+    }
+  }
+
+    </script>
+
+  </body>
+</html>
